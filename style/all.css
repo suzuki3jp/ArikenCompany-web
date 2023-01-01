@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: gray;
+}
+
+header {
+    margin: 0px 0px 0px 0px;
+    background-color: #000000;
+    height: 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    transform: translate(20px, 25px);
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+.commands, .docs, .chatter {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    display: inline-block;
+    margin-left: 50px;
+    transform: translate(290px, -5px);
+}
+
+.commands:hover, .docs:hover, .chatter:hover {
+    color: rgb(143, 143, 143);
+}
+
+@media screen and (max-width: 670px) {
+    .commands, .docs, .chatter {
+        display: none;
+    }
+}
