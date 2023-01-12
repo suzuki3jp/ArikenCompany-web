@@ -2,12 +2,31 @@ html, body {
     height: 100%;
     margin: 0px 0px 0px 0px;
     background-color: gray;
+    position: relative;
 }
 
 header {
     margin: 0px 0px 0px 0px;
     background-color: #000000;
     height: 10%;
+}
+
+footer {
+    margin: 0px 0px 0px 0px;
+    background-color:#000000;
+    color: white;
+    height: 5%;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    display: table;
+}
+
+.copy-right {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 15px;
 }
 
 .logo {
@@ -18,6 +37,8 @@ header {
     transform: translate(20px, 25px);
     display:  table-cell;
     vertical-align:  middle;
+    position: relative;
+    z-index: 100;
 }
 
 .commands, .docs, .chatter {
@@ -28,10 +49,23 @@ header {
     display: inline-block;
     margin-left: 50px;
     transform: translate(290px, -5px);
+    position: relative;
+    z-index: 100;
 }
 
 .commands:hover, .docs:hover, .chatter:hover {
     color: rgb(143, 143, 143);
+}
+
+.github {
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(-2%, -125%);
+    z-index: 1
+}
+
+.github-logo:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 670px) {
