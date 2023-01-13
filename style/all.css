@@ -68,7 +68,7 @@ footer {
     cursor: pointer;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 730px) {
     .commands, .docs, .chatter {
         display: none;
     }
