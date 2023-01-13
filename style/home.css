@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+header {
+    text-align: left;
+}
+
+.main {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.content {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(49, 49, 49);
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.detail {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .title {
+        font-size: 30px;
+    }
+}
