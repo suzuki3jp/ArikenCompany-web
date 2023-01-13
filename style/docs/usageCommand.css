@@ -33,6 +33,8 @@ header {
     .content {
         width: 100%;
         margin: 0 0 0 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .content div {
