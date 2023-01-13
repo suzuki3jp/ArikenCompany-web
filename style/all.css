@@ -2,25 +2,12 @@ html, body {
     height: 100%;
     margin: 0px 0px 0px 0px;
     background-color: gray;
-    position: relative;
 }
 
 header {
     margin: 0px 0px 0px 0px;
     background-color: #000000;
     height: 10%;
-}
-
-footer {
-    margin: 0px 0px 0px 0px;
-    background-color:#000000;
-    color: white;
-    height: 5%;
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-    text-align: center;
-    display: table;
 }
 
 .copy-right {
