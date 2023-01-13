@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArikenCompany - Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="../../style/all.css">
+    <link rel="stylesheet" href="../../style/docs/usageCommand.css">
+  </head>
+  <body>
+    <header>
+        <a class="logo" href="../home.html">ArikenCompany</a>
+        <a class="commands" href="../commands.html">Commands</a>
+        <a class="chatter" href="../chatters.html">Chatters</a>
+        <a class="docs" href="../docs.html">Docs</a>
+        <div class="github"><img style="width: 35px;" class="github-logo" src="../../assets/githubLogo.png" alt="github"></div>
+    </header>
+    <div class="main">
+        <h1>コマンドを利用する</h1>
+        <div class="content">
+          <h2>コマンドの使い方</h2>
+          <div>Twitchのチャットで接頭辞(!)をつけて使用したいコマンドを送信する。(!rank, !uptime ...)</div>
+          <h2>コマンドの仕様について</h2>
+          <div>ArikenCompanyにおいてコマンドの接頭辞(コマンドと普通のチャットを見分けるための最初に付けるやつ)には!を採用している。</div>
+          <div>接頭辞は!と！(半角全角)が区別されず、どちらでも許容する。（!rank = ！rank）</div>
+          <div>コマンド名には半角英字を使用する。（これは接頭辞と違い、半角全角を区別する）</div>
+          <div>コマンド名には半角英字が使用されるが、大文字と小文字は区別されず、処理上全て小文字に変換され処理される。（!RaNk = !rank）</div>
+          <h2>クールタイムについて</h2>
+          <div>デフォルトで120秒だが、コマンド管理者によって自由に変更可能。</div>
+          <div>VIPはクールタイムに縛られないため、いつでも使用できる。</div>
+          <div>ここでのVIPは配信者、TwitchVIP、モデレーター、その他コマンドで指定された者を指す。</div>
+          <div>クールタイムはコマンドごとに設定される。</div>
+          <div>つまり!rankを使用した後クールタイムが経過されるまで他の人でも!rankを使用することはできない。</div>
+          <div>コマンドごとに設定されるため、!rankを使用した直後でも!uptimeなどほかのコマンドは使用できる。</div>
+        </div>
+    </div>
+    <script src="../../script/all.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.main {
+    color: white;
+    width: 100%;
+}
+
+.content {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px 20px 20px;
+    font-weight: bold;
+}
+
+.content div {
+    margin-top: 5px;
+}
+
+.content h2 {
+    color: rgb(132, 0, 255);
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+        width: 100%;
+    }
+
+    .content div {
+        margin-top: 10px;
+    }
+}
