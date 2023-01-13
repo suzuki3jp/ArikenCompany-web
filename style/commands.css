@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+header {
+    text-align: left;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.commands-table {
+    color: rgb(49, 49, 49);;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.commands-table th {
+    word-wrap: break-word;
+    word-break: break-all;
+}
