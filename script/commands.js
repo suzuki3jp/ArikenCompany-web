@@ -1,4 +1,4 @@
-fetch("http://suzuki-dev.com:3150/commands")
+fetch("https://suzuki-dev.com:3150/commands")
     .then((response) => response.json())
     .then((commands) => {
         const main = document.getElementsByClassName("main")[0]
