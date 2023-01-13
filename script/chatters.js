@@ -1,4 +1,4 @@
-fetch("https://suzuki-dev.com:3150/messages")
+fetch("http://suzuki-dev.com:3150/chatters")
     .then((response) => response.json())
     .then((ranking) => {
         const array = Object.entries(ranking);
