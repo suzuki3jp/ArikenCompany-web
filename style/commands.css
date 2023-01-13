@@ -14,8 +14,7 @@ header {
 }
 
 .commands-table {
-    color: rgb(49, 49, 49);;
-    /* position: absolute; */
+    color: rgb(49, 49, 49);
     top: 0;
     right: 0;
     left: 0;
@@ -26,4 +25,22 @@ header {
 .commands-table th {
     word-wrap: break-word;
     word-break: break-all;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        height: 120%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        height: 150%;
+    }
+}
+
+@media screen and (max-width: 255px) {
+    body {
+        height: 180%;
+    }
 }
