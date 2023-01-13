@@ -2,6 +2,10 @@ body {
     text-align: center;
 }
 
+header {
+    text-align: left;
+}
+
 .main {
     color: white;
     width: 100%;
