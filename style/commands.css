@@ -26,9 +26,3 @@ header {
     word-wrap: break-word;
     word-break: break-all;
 }
-
-@media screen and (max-width: 480px) {
-    body {
-        height: 200%;
-    }
-}
