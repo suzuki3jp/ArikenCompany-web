@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+header {
+    text-align: left;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.chatters-table {
+    color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60%;
+}
+
+.chatters-table th {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+@media screen and (max-width: 650px) {
+    .chatters-table {
+        width: 90%;
+    }
+}
