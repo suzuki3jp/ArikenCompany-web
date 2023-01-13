@@ -29,6 +29,6 @@ header {
 
 @media screen and (max-width: 480px) {
     body {
-        height: 180%;
+        height: 200%;
     }
 }
