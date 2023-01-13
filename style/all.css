@@ -72,4 +72,18 @@ footer {
     .commands, .docs, .chatter {
         display: none;
     }
+
+    .github {
+        transform: translate(-5%, -25%);
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .commands, .docs, .chatter {
+        display: none;
+    }
+
+    .github {
+        display: none;
+    }
 }
