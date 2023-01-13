@@ -29,9 +29,10 @@ header {
     color: rgb(132, 0, 255);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 801px) {
     .content {
         width: 100%;
+        margin: 0 0 0 0;
     }
 
     .content div {
